@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Board</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the Job Board</h1>
+
+  <form action="submit-job.php" method="post">
+    <label for="job_title">Job Title:</label>
+    <input type="text" id="job_title" name="job_title"><br>
+
+    <label for="job_description">Job Description:</label>
+    <textarea id="job_description" name="job_description"></textarea><br>
+
+    <label for="job_location">Job Location:</label>
+    <input type="text" id="job_location" name="job_location"><br>
+
+    <input type="submit" value="Post Job">
+  </form>
+
+  <h2>Current Job Listings</h2>
+  <form action="search-jobs.php" method="get">
+    <label for="keyword">Keyword:</label>
+    <input type="text" id="keyword" name="keyword">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+
+    <input type="submit" value="Search">
+  </form>
+
+  <ul>
+    <li>Job Title: Software Engineer, Description: Design and develop new features, Location: San Francisco</li>
+    <li>Job Title: Data Scientist, Description: Analyze and interpret large data sets, Location: New York</li>
+    <li>Job Title: Marketing Manager, Description: Develop and execute marketing strategies, Location: London</li>
+  </ul>
+</body>
+</html>
