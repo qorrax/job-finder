@@ -5,36 +5,34 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Welcome to the Job Board</h1>
+  <h1> Programming Jobs</h1>
 
-  <form action="submit-job.php" method="post">
-    <label for="job_title">Job Title:</label>
-    <input type="text" id="job_title" name="job_title"><br>
+  <form>
+    <label for="keywords">Keywords:</label><br>
+    <input type="text" id="keywords" name="keyword"><br>
 
-    <label for="job_description">Job Description:</label>
-    <textarea id="job_description" name="job_description"></textarea><br>
-
-    <label for="job_location">Job Location:</label>
-    <input type="text" id="job_location" name="job_location"><br>
-
-    <input type="submit" value="Post Job">
+    <label for="location">Locaton:</label><br>
+    <input type="text" id="location" name="Location"><br>
+    input type="submit" value="Search">
   </form>
 
-  <h2>Current Job Listings</h2>
-  <form action="search-jobs.php" method="get">
-    <label for="keyword">Keyword:</label>
-    <input type="text" id="keyword" name="keyword">
-
-    <label for="location">Location:</label>
-    <input type="text" id="location" name="location">
-
-    <input type="submit" value="Search">
-  </form>
-
+  <h2>Featured Jobs</h2>
+  
   <ul>
-    <li>Job Title: Software Engineer, Description: Design and develop new features, Location: San Francisco</li>
-    <li>Job Title: Data Scientist, Description: Analyze and interpret large data sets, Location: New York</li>
-    <li>Job Title: Marketing Manager, Description: Develop and execute marketing strategies, Location: London</li>
+    <li>
+      <h3> Software Developers </h3>
+      <p>Company Name</p>
+      <p>Location</p>
+      <p>Description</p>
+      <a href="#"> Apply Now</a>
+    </li>
+    <li>
+      <h3> Software Developers </h3>
+      <p>Company Name</p>
+      <p>Location</p>
+      <p>Description</p>
+      <a href="#"> Apply Now</a>
+    </li>
   </ul>
 </body>
 </html>
