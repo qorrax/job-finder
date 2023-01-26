@@ -1,0 +1,59 @@
+[
+        {
+            "title": "Software Engineer",
+            "company": "Google",
+            "location": "Mountain View, CA",
+            "salary": "$120,000 - $150,000",
+            "description": "We are looking for an experienced software engineer to join our team at Google. The ideal candidate will have a strong background in computer science and experience with Java, C++, or Python. Responsibilities include designing and implementing new features, debugging and troubleshooting code, and collaborating with cross-functional teams."
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Amazon",
+            "location": "Seattle, WA",
+            "salary": "$150,000 - $200,000",
+            "description": "Amazon is seeking a highly skilled data scientist to work on cutting-edge machine learning projects. The ideal candidate will have a PhD in Computer Science or a related field and experience with machine learning frameworks such as TensorFlow or PyTorch. Responsibilities include building and deploying models, analyzing data, and communicating findings to stakeholders."
+        },
+        {
+            "title": "Product Manager",
+            "company": "Facebook",
+            "location": "Menlo Park, CA",
+            "salary": "$120,000 - $180,000",
+            "description": "Facebook is looking for a driven product manager to lead the development of new products and features. The ideal candidate will have experience in product management and a strong understanding of the technology industry. Responsibilities include defining product strategy, collaborating with cross-functional teams, and delivering successful products to market."
+        },
+
+        {
+            "title": "Full Stack Developer",
+            "company": "Apple",
+            "location": "Cupertino, CA",
+            "salary": "$110,000 - $140,000",
+            "description": "Apple is looking for a full stack developer with experience in both front-end and back-end development. The ideal candidate will have experience with JavaScript, React, and Node.js. Responsibilities include designing and implementing new features, debugging and troubleshooting code, and collaborating with cross-functional teams."
+        },
+        {
+            "title": "DevOps Engineer",
+            "company": "Netflix",
+            "location": "Los Gatos, CA",
+            "salary": "$120,000 - $160,000",
+            "description": "Netflix is seeking a DevOps Engineer with experience in building and maintaining large-scale systems. The ideal candidate will have experience with Linux, AWS, and Ansible. Responsibilities include automating infrastructure, monitoring and maintaining systems, and collaborating with software engineers."
+        },
+        {
+            "title": "Security Engineer",
+            "company": "Tesla",
+            "location": "Palo Alto, CA",
+            "salary": "$130,000 - $170,000",
+            "description": "Tesla is looking for a security engineer with experience in securing systems and networks. The ideal candidate will have experience with security tools such as Nessus, Metasploit, and Wireshark. Responsibilities include identifying and mitigating security risks, implementing security measures, and collaborating with cross-functional teams."
+        },
+        {
+            "title": "Sales Executive",
+            "company": "Microsoft",
+            "location": "Redmond, WA",
+            "salary": "$100,000 - $150,000",
+            "description": "Microsoft is seeking an experienced sales executive to join our team. The ideal candidate will have a proven track record of meeting and exceeding sales goals. Responsibilities include managing and growing a sales territory, developing relationships with key clients, and closing deals."
+        },
+        {
+            "title": "Human Resources Manager",
+            "company": "IBM",
+            "location": "Armonk, NY",
+            "salary": "$90,000 - $130,000",
+            "description": "IBM is looking for an experienced human resources manager to lead our HR team. The ideal candidate will have a background in human resources and experience in recruitment, employee relations, and employee development. Responsibilities include developing and implementing HR strategies, managing employee relations, and collaborating with cross-functional teams."
+        }
+]
