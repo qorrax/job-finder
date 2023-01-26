@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Job Board</title>
+  <title>Programming Jobs</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1> Tech Jobs</h1>
-
-  <form>
-    <label for="keywords">Keywords:</label><br>
-    <input type="text" id="keywords" name="keyword"><br>
-
-    <label for="location">Locaton:</label><br>
-    <input type="text" id="location" name="Location"><br><br>
-    <input type="submit" value="Search">
+  <h1>Tech Jobs</h1>
+  <form action="#">
+    <label for="keywords">Keywords:</label>
+    <input type="text" id="keywords" name="keywords">
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+    <button type="submit" id="filter-button">Filter</button>
   </form>
-
-  <h2>Featured Jobs</h2>
+  <div class="featured-jobs">
+    <!-- Featured jobs will be generated here using JavaScript -->
+  </div>
   
-   <div class="featured-jobs">
-
-    <!-- featuere jobs will be generated here using Javascript-->
-   </div>
-   
 </body>
-    <script src="main.js"></script>
+<script src="main.js"></script>
+ 
 </html>

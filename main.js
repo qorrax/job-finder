@@ -37,6 +37,8 @@
         });
     });
 
+    
+
     function generateJobElement(job) {
       // Create the elements for the job
       const jobElement = document.createElement('div');
